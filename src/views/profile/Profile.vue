@@ -1,15 +1,125 @@
 <template>
   <div>
-    <h2>个人中心</h2>
+    <scroll class="content">
+      <ul>
+        <li>hhhhhh1</li>
+        <li>hhhhhh2</li>
+        <li>hhhhhh3</li>
+        <li>hhhhhh4</li>
+        <li>hhhhhh5</li>
+        <li>hhhhhh6</li>
+        <li>hhhhhh7</li>
+        <li>hhhhhh8</li>
+        <li>hhhhhh9</li>
+        <li>hhhhhh10</li>
+        <li>hhhhhh11</li>
+        <li>hhhhhh12</li>
+        <li>hhhhhh13</li>
+        <li>hhhhhh14</li>
+        <li>hhhhhh15</li>
+        <li>hhhhhh16</li>
+        <li>hhhhhh17</li>
+        <li>hhhhhh18</li>
+        <li>hhhhhh19</li>
+        <li>hhhhhh20</li>
+        <li>hhhhhh21</li>
+        <li>hhhhhh22</li>
+        <li>hhhhhh23</li>
+        <li>hhhhhh24</li>
+        <li>hhhhhh25</li>
+        <li>hhhhhh26</li>
+        <li>hhhhhh27</li>
+        <li>hhhhhh28</li>
+        <li>hhhhhh29</li>
+        <li>hhhhhh30</li>
+        <li>hhhhhh31</li>
+        <li>hhhhhh32</li>
+        <li>hhhhhh33</li>
+        <li>hhhhhh34</li>
+        <li>hhhhhh35</li>
+        <li>hhhhhh36</li>
+        <li>hhhhhh37</li>
+        <li>hhhhhh38</li>
+        <li>hhhhhh39</li>
+        <li>hhhhhh40</li>
+        <li>hhhhhh41</li>
+        <li>hhhhhh42</li>
+        <li>hhhhhh43</li>
+        <li>hhhhhh44</li>
+        <li>hhhhhh45</li>
+        <li>hhhhhh46</li>
+        <li>hhhhhh47</li>
+        <li>hhhhhh48</li>
+        <li>hhhhhh49</li>
+        <li>hhhhhh50</li>
+        <li>hhhhhh51</li>
+        <li>hhhhhh52</li>
+        <li>hhhhhh53</li>
+        <li>hhhhhh54</li>
+        <li>hhhhhh55</li>
+        <li>hhhhhh56</li>
+        <li>hhhhhh57</li>
+        <li>hhhhhh58</li>
+        <li>hhhhhh59</li>
+        <li>hhhhhh60</li>
+        <li>hhhhhh61</li>
+        <li>hhhhhh62</li>
+        <li>hhhhhh63</li>
+        <li>hhhhhh64</li>
+        <li>hhhhhh65</li>
+        <li>hhhhhh66</li>
+        <li>hhhhhh67</li>
+        <li>hhhhhh68</li>
+        <li>hhhhhh69</li>
+        <li>hhhhhh70</li>
+        <li>hhhhhh71</li>
+        <li>hhhhhh72</li>
+        <li>hhhhhh73</li>
+        <li>hhhhhh74</li>
+        <li>hhhhhh75</li>
+        <li>hhhhhh76</li>
+        <li>hhhhhh77</li>
+        <li>hhhhhh78</li>
+        <li>hhhhhh79</li>
+        <li>hhhhhh80</li>
+        <li>hhhhhh81</li>
+        <li>hhhhhh82</li>
+        <li>hhhhhh83</li>
+        <li>hhhhhh84</li>
+        <li>hhhhhh85</li>
+        <li>hhhhhh86</li>
+        <li>hhhhhh87</li>
+        <li>hhhhhh88</li>
+        <li>hhhhhh89</li>
+        <li>hhhhhh90</li>
+        <li>hhhhhh91</li>
+        <li>hhhhhh92</li>
+        <li>hhhhhh93</li>
+        <li>hhhhhh94</li>
+        <li>hhhhhh95</li>
+        <li>hhhhhh96</li>
+        <li>hhhhhh97</li>
+        <li>hhhhhh98</li>
+        <li>hhhhhh99</li>
+        <li>hhhhhh100</li>
+      </ul>
+    </scroll>
   </div>
 </template>
 
 <script>
+  import Scroll from 'components/common/scroll/Scroll'
   export default {
-    name: "Profile"
+    name: "Profile",
+    components: {
+      Scroll
+    }
   }
 </script>
 
 <style scoped>
-
+  .content {
+    height: 300px;
+    overflow: hidden;
+  }
 </style>

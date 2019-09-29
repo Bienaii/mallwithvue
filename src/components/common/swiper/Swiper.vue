@@ -1,5 +1,5 @@
 <template>
-  <div id="lj-swiper">
+  <div id="hy-swiper">
     <div class="swiper" @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd">
       <slot></slot>
     </div>
@@ -210,7 +210,7 @@
 </script>
 
 <style scoped>
-  #lj-swiper {
+  #hy-swiper {
     overflow: hidden;
     position: relative;
   }
